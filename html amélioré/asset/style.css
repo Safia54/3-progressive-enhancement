@@ -5,23 +5,23 @@ p{
   line-height: 20px;
   color: #223b52;
   letter-spacing: 2px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+ul{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 a {
 text-decoration: overline;
-
 }
 a:hover {
     background-color: yellow;
 }
 a:visited {
     color: pink;
-
 }
-
 *{
   box-sizing: border-box;
 }
-
 body{
   width: 90%;
   margin: 0 auto;
@@ -29,9 +29,7 @@ body{
   background-position-x:700px;
   background-position-y:800px;
   background-size: cover;
-
 }
-
 q, blockquote{
   width: 50%;
   font-style: italic;
@@ -51,27 +49,21 @@ q, blockquote{
 h3{
   background-color: yellow;
 }
-
 .bien{
   color: green;
 }
-
 .mal{
   color: red;
 }
-
 span{
   text-transform: uppercase;
 }
-
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
 tr {
   background-color: white;
 }
-
 #pouce_up{
 background-image: url(https://raw.githubusercontent.com/becodeorg/BXLCentral/master/Projects/3-progressive-enhancement/bien.png);
 background-repeat: no-repeat ;
@@ -79,7 +71,6 @@ padding-right: 70px;
 padding-top: 30px;
 background-position-x:350px;
 }
-
 #pouce_down{
 background-image: url(https://raw.githubusercontent.com/becodeorg/BXLCentral/master/Projects/3-progressive-enhancement/mal.png)  ;
 background-repeat: no-repeat ;
@@ -87,7 +78,6 @@ padding-right: 70px;
 padding-top: 30px;
 background-position-x:370px;
 }
-
 #chat{
 background-image: url(https://raw.githubusercontent.com/becodeorg/BXLCentral/master/Projects/3-progressive-enhancement/chat.png) ;
 background-repeat: no-repeat ;
@@ -95,7 +85,12 @@ padding-right: 70px;
 padding-top: 30px;
 background-position-x:400px;
 }
-
 p:first-child {
-  font-weight: bold;
+  font-style:italic;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lobster', cursive;
+}
+table {
+  border:1px;
 }
