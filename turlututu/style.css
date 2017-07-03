@@ -1,7 +1,12 @@
-header, footer, section{
+  header, nav, footer, section{
   font-family : helvetica;
+  display: inline-block;
+  width: 1270px;
+  margin: auto;
 }
-header, footer{
+
+
+nav, footer{
   background-color: #24292e;
 }
 li{
@@ -83,6 +88,7 @@ button.btn-orange{
 .text-milieu {
   text-align: left;
 }
+
 
 h3{
   color:white;
